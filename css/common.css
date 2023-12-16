@@ -15,16 +15,16 @@ body {
 
 .gallery {
   display: flex;
-  list-style: none;
-  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.gallery li {
-  margin-right: 10px;
+.gallery-item {
+  margin: 10px;
 }
 
-.gallery img {
-  width: 150px;
-  height: 100px;
+.gallery-img {
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
